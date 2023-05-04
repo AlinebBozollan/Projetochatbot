@@ -55,7 +55,7 @@ def nossos_contatos():
 def menu():
     while True:
         print("Bem-vindo ao Chatbot do seu Curso IFOOD/RESILIA . PFV digite o numero referente a sua opcao abaixo ?")
-        resposta = input("n\1. Área do Aluno\n2. Ajuda\n3. Fale Conosco\n4. Sair\n")
+        resposta = input("\n1. Área do Aluno\n2. Ajuda\n3. Fale Conosco\n4. Sair\n")
         try:
             int(resposta)  # tenta converter a resposta para um número inteiro
         except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
