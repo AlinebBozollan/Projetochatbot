@@ -1,5 +1,5 @@
 def area_do_aluno():
-    print("Bem-vindo à Área do Aluno. PFV digite o numero referente a sua opcao abaixo")
+    print("Bem-vindo à Área do Aluno. Por favor digite o numero referente a sua opcao abaixo")
     resposta = input("\n1. Meu Curso\n2. Dicas e utilidades \n3. Comunicados\n4. Voltar\n")
     try:
             int(resposta)  # tenta converter a resposta para um número inteiro
