@@ -18,7 +18,7 @@ def area_do_aluno():
             print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
 def ajuda():
     print("Bem-vindo à Ajuda. PFV digite o numero referente a sua opcao abaixo")
-    resposta = input("n\1. Monitoria\n2. Painel de Duvidas\n3. F.A.Q.\n4. Voltar ao Menu anterior\n")
+    resposta = input("\n1. Monitoria\n2. Painel de Duvidas\n3. F.A.Q.\n4. Voltar ao Menu anterior\n")
     try:
             int(resposta)  # tenta converter a resposta para um número inteiro
     except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
@@ -36,7 +36,7 @@ def ajuda():
             print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
 def nossos_contatos():
     print("Bem-vindo aos Nossos Contatos. PFV digite o numero referente a sua opcao abaixo")
-    resposta = input("n\1. Endereco\n2. Telefone\n3. Email\n4. Voltar ao menu anterior\n")
+    resposta = input("\n1. Endereco\n2. Telefone\n3. Email\n4. Voltar ao menu anterior\n")
     try:
             int(resposta)  # tenta converter a resposta para um número inteiro
     except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
