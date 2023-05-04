@@ -1,0 +1,77 @@
+def area_do_aluno():
+    print("Bem-vindo à Área do Aluno. PFV digite o numero referente a sua opcao abaixo")
+    resposta = input("\n1. Meu Curso\n2. Dicas e utilidades \n3. Comunicados\n4. Voltar\n")
+    try:
+            int(resposta)  # tenta converter a resposta para um número inteiro
+    except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            print("Desculpe, sua resposta deve ser um número. Por favor, tente novamente.")
+            area_do_aluno()
+    if resposta == "1":
+            print("https://aluno.resilia.work/dashboard , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+    elif resposta == "2":
+            print("www.discord.com/turmavamoai/dicaseutilidades , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+    elif resposta == "3":
+            print("www.discord.com/turmavamoai/comunicados , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+    elif resposta == "4":
+            return #retorna ao menu principal 
+    else:
+            print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+def ajuda():
+    print("Bem-vindo à Ajuda. PFV digite o numero referente a sua opcao abaixo")
+    resposta = input("n\1. Monitoria\n2. Painel de Duvidas\n3. F.A.Q.\n4. Voltar ao Menu anterior\n")
+    try:
+            int(resposta)  # tenta converter a resposta para um número inteiro
+    except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            print("Desculpe, sua resposta deve ser apenas um número de (1 a 4). Por favor, tente novamente.")
+            ajuda()
+    if resposta == "1":
+            print("www.discord.com/turmavamoai/monitoria , seu atendimento sera automaticamente reiniciado, aperte 4 no menu principal se deseja sair.")
+    elif resposta == "2":
+            print("www.discord.com/turmavamoai/paineldeduvidas , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair.")
+    elif resposta == "3":
+            print("www.discord.com/turmavamoai/faq , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+    elif resposta == "4":
+        return
+    else:
+            print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+def nossos_contatos():
+    print("Bem-vindo aos Nossos Contatos. PFV digite o numero referente a sua opcao abaixo")
+    resposta = input("n\1. Enderecon\2. Telefone\n3. Email\n4. Voltar ao menu anterior\n")
+    try:
+            int(resposta)  # tenta converter a resposta para um número inteiro
+    except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            print("Desculpe, sua resposta deve ser um número. Por favor, tente novamente.")
+            nossos_contatos()
+    if resposta == "1":
+            print("Rua vergueiro xx00x , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+    elif resposta == "2":
+            print("O número de telefone é +55113050xx56 , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair ")
+    elif resposta == "3":
+            print("atendimento@resilia.com.br , seu atendimento sera reiniciado, aperte 4 no menu principal se deseja sair")
+    elif resposta == "4":
+        return
+    else:
+            print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+def menu():
+    while True:
+        print("Bem-vindo ao Chatbot do seu Curso IFOOD/RESILIA . PFV digite o numero referente a sua opcao abaixo ?")
+        resposta = input("n\1. Área do Aluno\n2. Ajuda\n3. Fale Conosco\n4. Sair\n")
+        try:
+            int(resposta)  # tenta converter a resposta para um número inteiro
+        except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            print("Desculpe, sua resposta deve ser apenas um número. Por favor, tente novamente.")
+            continue  # continua o loop while
+        if resposta == "1":
+            area_do_aluno()
+        elif resposta == "2":
+            ajuda()
+        elif resposta == "3":
+            nossos_contatos()
+        elif resposta == "4":
+            break
+        else:
+            print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+            menu()
+menu()
+
+
