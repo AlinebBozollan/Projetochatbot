@@ -1,5 +1,5 @@
 def area_do_aluno():
-    print("Bem-vindo à Área do Aluno. Por favor digite o numero referente a sua opcao abaixo")
+    print("Bem-vindo à Área do Aluno. Por favor, digite o numero referente a sua opção abaixo")
     resposta = input("\n1. Meu Curso\n2. Dicas e utilidades \n3. Comunicados\n4. Voltar\n")
     try:
             int(resposta)  # tenta converter a resposta para um número inteiro
@@ -17,7 +17,7 @@ def area_do_aluno():
     else:
             print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
 def ajuda():
-    print("Bem-vindo à Ajuda. PFV digite o numero referente a sua opcao abaixo")
+    print("Bem-vindo à Ajuda. Por favor, digite o número referente a sua opção abaixo")
     resposta = input("\n1. Monitoria\n2. Painel de Duvidas\n3. F.A.Q.\n4. Voltar ao Menu anterior\n")
     try:
             int(resposta)  # tenta converter a resposta para um número inteiro
@@ -35,7 +35,7 @@ def ajuda():
     else:
             print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
 def nossos_contatos():
-    print("Bem-vindo aos Nossos Contatos. PFV digite o numero referente a sua opcao abaixo")
+    print("Bem-vindo aos Nossos Contatos. Por favor, digite o número referente a sua opção abaixo")
     resposta = input("\n1. Endereco\n2. Telefone\n3. Email\n4. Voltar ao menu anterior\n")
     try:
             int(resposta)  # tenta converter a resposta para um número inteiro
@@ -54,7 +54,7 @@ def nossos_contatos():
             print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
 def menu():
     while True:
-        print("Bem-vindo ao Chatbot do seu Curso IFOOD/RESILIA . PFV digite o numero referente a sua opcao abaixo ?")
+        print("Bem-vindo ao Chatbot do seu Curso IFOOD/RESILIA . Por favor, digite o numero referente a sua opcao abaixo ?")
         resposta = input("\n1. Área do Aluno\n2. Ajuda\n3. Fale Conosco\n4. Sair\n")
         try:
             int(resposta)  # tenta converter a resposta para um número inteiro
