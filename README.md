@@ -15,4 +15,6 @@ toda informação necessária estará no mesmo lugar.
 Ferramentas utilizadas pelo grupo para desenvolvimento do projeto = VS CODE , GIT , GitHub ,GITHUB DESKTOP , WhatsApp ,Discord 
 
 ---------
-**AlinebBozollan / Rodrigomarques02 / RafaelMoreiraDev / GuugaDev / thiagochechia
+** AlinebBozollan / Rodrigomarques02 / RafaelMoreiraDev / GuugaDev / thiagochechia **
+
+----------
