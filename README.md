@@ -8,7 +8,7 @@ Ele consiste em um chat programado para te direcionar pelo site, tirar dúvidas,
 
 ---
 
-Este Chatbot é compatível Multiplataformas, pois foi criado na Linguagem Python, cada 
+Este Chatbot é compatível com Multiplataformas, pois foi criado na Linguagem Python, cada 
 colaborador de nosso projeto optou por uma empresa ou ramo de atuacao diferente e 
 o código do Chatbot pode ser facilmente personalizado de acordo com a empresa e ou Ramo de atuação .
 
