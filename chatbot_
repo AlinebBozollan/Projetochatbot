@@ -20,8 +20,8 @@ def ajuda():
     print("Bem-vindo à Ajuda. Por favor, digite o número referente a sua opção abaixo")
     resposta = input("\n1. Monitoria\n2. Painel de Duvidas\n3. F.A.Q.\n4. Voltar ao Menu anterior\n")
     try:
-            int(resposta)  # tenta converter a resposta para um número inteiro
-    except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            int(resposta)  
+    except ValueError:  
             print("Desculpe, sua resposta deve ser apenas um número de (1 a 4). Por favor, tente novamente.")
             ajuda()
     if resposta == "1":
@@ -38,8 +38,8 @@ def nossos_contatos():
     print("Bem-vindo aos Nossos Contatos. Por favor, digite o número referente a sua opção abaixo")
     resposta = input("\n1. Endereco\n2. Telefone\n3. Email\n4. Voltar ao menu anterior\n")
     try:
-            int(resposta)  # tenta converter a resposta para um número inteiro
-    except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            int(resposta) 
+    except ValueError:  
             print("Desculpe, sua resposta deve ser um número. Por favor, tente novamente.")
             nossos_contatos()
     if resposta == "1":
@@ -57,8 +57,8 @@ def menu():
         print("Bem-vindo ao Chatbot do seu Curso IFOOD/RESILIA . Por favor, digite o numero referente a sua opcao abaixo ?")
         resposta = input("\n1. Área do Aluno\n2. Ajuda\n3. Fale Conosco\n4. Sair\n")
         try:
-            int(resposta)  # tenta converter a resposta para um número inteiro
-        except ValueError:  # se a conversão falhar, significa que o usuário não inseriu um número
+            int(resposta)  
+        except ValueError:  
             print("Desculpe, sua resposta deve ser apenas um número. Por favor, tente novamente.")
             continue  # continua o loop while
         if resposta == "1":
