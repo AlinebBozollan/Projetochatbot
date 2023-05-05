@@ -1,6 +1,5 @@
 # Chatbot
 ## Neste repositório desenvolvemos o projeto Chatbot na linguagem Phyton.
----
 
 **Evidencia De Entrega**: 
 Definimos nosso projeto de chatbot como tal, levando em consideração a carência de um atendimento automatizado e momentâneo no site da resilia. O site não deixa seus alunos totalmente carentes de informações, ele é equipado com um chat no qual o aluno escolhe o assunto a ser tratado e explica melhor sobre sua dúvida na descrição, entre tanto o aluno precisar aguardar um tempo estimado de 48horas úteis. Enxergando essa desvirtude de prazo para sanar dúvidas, desenvolvemos um outro formato de chat, o ChatBot.
