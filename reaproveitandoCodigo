@@ -1,0 +1,66 @@
+def area_do_aluno():
+    print("Bem-vindo à Área do Aluno. Como posso ajudá-lo?")
+    resposta = input("1. Quando é o prazo final de inscrição para o próximo semestre?\n2. Qual é o horário da aula de Matemática Avançada?\n3. Qual é a minha nota na última prova de História?\n4. Sair\n")
+    if resposta == "1":
+        print("O prazo final de inscrição para o próximo semestre é 30 de julho.")
+    elif resposta == "2":
+        print("A aula de Matemática Avançada é às terças-feiras, das 14h às 16h.")
+    elif resposta == "3":
+        print("Sua nota na última prova de História foi 8,5.")
+    elif resposta == "4":
+        return #retorna ao menu principal 
+    else:
+        print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+        area_do_aluno()
+
+        # Depois de responder a pergunta, perguntamos se o usuário quer continuar na área do aluno
+    resposta = input("Deseja fazer outra pergunta na Área do Aluno? (s/n)\n")
+    if resposta.lower() == "s":
+        area_do_aluno()  # se sim, chamamos a função novamente para fazer outra pergunta na Área do Aluno
+
+def ajuda():
+    print("Bem-vindo à Ajuda. Como posso ajudá-lo?")
+    resposta = input("1. Qual é o horário de funcionamento do Centro de Suporte ao Estudante?\n2. Como posso acessar os recursos online da Biblioteca?\n3. Onde posso encontrar mais informações sobre os serviços de tutoria da faculdade?\n4. Sair\n")
+    if resposta == "1":
+        print("O horário de funcionamento do Centro de Suporte ao Estudante é de segunda a sexta, das 9 às 17h.")
+    elif resposta == "2":
+        print("Você pode acessar os recursos online da Biblioteca através do site da faculdade, na seção Biblioteca.")
+    elif resposta == "3":
+        print("Você pode encontrar mais informações sobre os serviços de tutoria da faculdade no site da faculdade, na seção Tutoria.")
+    elif resposta == "4":
+        return
+    else:
+        print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+        ajuda()
+
+def nossos_contatos():
+    print("Bem-vindo aos Nossos Contatos. Como posso ajudá-lo?")
+    resposta = input("1. Qual é o número de telefone do Departamento Financeiro?\n2. Como posso enviar um e-mail para o Departamento de Admissões?\n3. Qual é o endereço físico da faculdade?\n4. Sair\n")
+    if resposta == "1":
+        print("O número de telefone do Departamento Financeiro é (11) 5555-5555.")
+    elif resposta == "2":
+        print("Você pode enviar um e-mail para o Departamento de Admissões através do endereço admissoes@faculdade.edu.br.")
+    elif resposta == "3":
+        print("O endereço físico da faculdade é Rua dos Professores, 123, Centro, São Paulo, SP.")
+    elif resposta == "4":
+        return
+    else:
+        print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+        nossos_contatos()
+
+def menu():
+    print("Bem-vindo ao Chatbot da Faculdade. O que você gostaria de fazer?")
+    resposta = input("1. Área do Aluno\n2. Ajuda\n3. Nossos Contatos\n4. Sair\n")
+    if resposta == "1":
+        area_do_aluno()
+    elif resposta == "2":
+        ajuda()
+    elif resposta == "3":
+        nossos_contatos()
+    elif resposta == "4":
+        return
+    else:
+        print("Desculpe, não entendi sua resposta. Por favor, tente novamente.")
+        menu()
+
+menu()
