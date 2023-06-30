@@ -33,7 +33,7 @@ toda informação necessária estarão no mesmo lugar.
   
 Copie o arquivo :
 
-chatbot_ 
+chatbot_.py
 
 localizado na raiz deste repositorio
 e rode-o no VSCODE .
