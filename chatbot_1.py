@@ -1,4 +1,4 @@
-from chatbot_ import *
+from chatbot_.py import *
 def chatbot():
     def area_do_aluno():
         return (area_do_aluno)
