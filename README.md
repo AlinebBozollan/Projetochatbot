@@ -45,12 +45,22 @@ localizado na raiz deste repositorio
 e rode-o no VSCODE .
 Ou lhes oferecemos a
 Opcao de executar em modo seguro sem precisar abrir um arquivo de fonte desconhecida em seu PC.
+
 How ? lol#
+
 Copie o código fonte do arquivo ( chatbot_.py ) deste diretorio 
 abra o Visual Studio Code (1.78.2) crie um novo arquivo em Python e
 salve-o na pasta de sua preferencia .
 Depois que o arquivo já estiver salvo , cole o conteúdo copiado do arquivo main.py nele e salve novamente .
-Basta rodar o programa rodar o programa e no terminal o usuario sera levado a um Menu Principal para atendimento.
+Basta rodar o programa rodar o programa e no terminal o usuario sera levado a um Menu Principal para atendimento do CHATBOT.
+
+O arquivo chatbot_1.py refere-se ao mesmo código desenvolvido no chatbot_.py porém sao somentes as funcoes do codigo principal 
+importadas como biblioteca e precisa do arquivo chatbot_.py na mesma pasta para funcionar.
+
+O arquivo chatbot_2.py refere-se a mais uma implementacao do codigo original onde importamos bibliotecas com as funcoes principais do programa e é possível rodar o chatbot perfeitamente com este arquivo ,um código de 3 linhas escrito em python, para funcionar 
+precisa estar na mesma pasta que os arquivos (chatbot_.py) e (chatbot_1.py) disponíveis neste repositório.
+
+os  outros arquivos disponiveis neste repositorio referem-se a apresentacao do projeto e seu desenvolvimento.
 
 
 
