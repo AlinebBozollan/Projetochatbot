@@ -13,20 +13,29 @@ colaborador de nosso projeto optou por uma empresa ou ramo de atuacao diferente 
 o código do Chatbot pode ser facilmente personalizado de acordo com a empresa e ou Ramo de atuação .
 
 No momento de sua criacao foi idealizado para que :
-Facilitasse e automatizasse as conexões, acessos que o aluno precisa durante o curso e 
-toda informação necessária estará no mesmo lugar.
+Facilitasse e automatizasse as conexões, os acessos que o aluno precisa durante o curso e 
+toda informação necessária estarão no mesmo lugar.
 
 
 ---------
 **Ferramentas utilizadas pelo grupo para desenvolvimento do projeto**
-- VS CODE, GIT, GitHub, GITHUB DESKTOP, WhatsApp, Discord.
-
+- PYTHON , VS CODE, GIT, GitHub, GITHUB DESKTOP, WhatsApp, Discord.
 ---------
 - AlinebBozollan (Pessoa Co-facilitadora)
 - Rodrigomarques02 (Pessoa Gestora de - Conhecimento)
 - RafaelMoreiraDev (Pessoa Colaboradora I)
 - thiagochechia (Pessoa Gestora de Gente e - Engajamento)
 - GuuGaDev (Pessoa Colaboradora II)
+
+  Instrucoes de uso :
+  
+Copie o arquivo :
+
+chatbot_ 
+
+localizado na raiz deste repositorio
+e rode-o no VSCODE .
+
 
 
 ----------
