@@ -20,7 +20,13 @@ toda informação necessária estarão no mesmo lugar.
 ---------
 **Ferramentas utilizadas pelo grupo para desenvolvimento do projeto**
 - PYTHON , VS CODE, GIT, GitHub, GITHUB DESKTOP, WhatsApp, Discord.
+  
+- Este programa (CHATBOT)
+foi desenvolvido em Python (3.11.2) Visual Studio Code (1.78.2)
+nenhuma instalacao adicional foi utilizada foi desenvolvido no
+Sistema Operacional Mac Os (10.13.6)
 ---------
+
 - AlinebBozollan (Pessoa Co-facilitadora)
 - Rodrigomarques02 (Pessoa Gestora de - Conhecimento)
 - RafaelMoreiraDev (Pessoa Colaboradora I)
@@ -37,6 +43,14 @@ chatbot_.py
 
 localizado na raiz deste repositorio
 e rode-o no VSCODE .
+Ou lhes oferecemos a
+Opcao de executar em modo seguro sem precisar abrir um arquivo de fonte desconhecida em seu PC.
+How ? lol#
+Copie o código fonte do arquivo ( chatbot_.py ) deste diretorio 
+abra o Visual Studio Code (1.78.2) crie um novo arquivo em Python e
+salve-o na pasta de sua preferencia .
+Depois que o arquivo já estiver salvo , cole o conteúdo copiado do arquivo main.py nele e salve novamente .
+Basta rodar o programa rodar o programa e no terminal o usuario sera levado a um Menu Principal para atendimento.
 
 
 
