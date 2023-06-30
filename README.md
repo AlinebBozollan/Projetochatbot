@@ -27,6 +27,8 @@ toda informação necessária estarão no mesmo lugar.
 - thiagochechia (Pessoa Gestora de Gente e - Engajamento)
 - GuuGaDev (Pessoa Colaboradora II)
 
+---
+
   Instrucoes de uso :
   
 Copie o arquivo :
